@@ -1,0 +1,18 @@
+*{
+    background-color:lemonchiffon;
+}
+
+div{
+    text-align: center;
+}
+
+input[type=button]{
+    margin: 10px;
+}
+
+input{
+    width: 130px;
+}
+input[type=reset]{
+    margin: 10px;
+}

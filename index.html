@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <title>Randomizer</title>
+</head>
+
+<body>
+
+    <div id="mainer">
+        <h1> Randomizer</h1>
+        <h2>Min</h2>
+        <input type="number" id="minNumber" size="7" onkeyup='switchAble()'>
+        <h2>Max</h2>
+        <input type="number" id="maxNumber" size="7" onkeyup='switchAble()'><br>
+        <input type="button" id="generate" value="Сгенерировать" onclick="getRandom();" disabled></button>
+        <br>
+        <output>Тут будет ваш ответ!</output><br>
+        <input type="reset" value="Сброс" onclick="window.location.reload()">
+
+    </div>
+    <script src="/app.js"></script>
+</body>
+
+</html>
