@@ -1,0 +1,17 @@
+.collectionItems{
+     border: 4px double black;;
+}
+main{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+body{
+     background-color:burlywood;
+
+}
+button{
+     background-color: darkgray;
+    margin: 10px 3px;
+
+}
