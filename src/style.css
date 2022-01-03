@@ -1,0 +1,12 @@
+*{
+    text-align: center;
+}
+.buttons{
+    margin-bottom: 10px;
+} 
+.fixerPhoto{
+    height: 250px;
+    width: 250px;
+    border: 2px solid black;
+    margin: 2px;
+}
