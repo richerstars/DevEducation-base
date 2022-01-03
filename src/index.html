@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MVC to-do List</title>
+</head>
+
+<body>
+    <div class="head">
+        <h1> To do list on Class + MVC</h1>
+        <form id="addTask">
+            <input type="text" id="enterInput" placeholder="Добавьте task,можно добавить нажав Enter">
+            <button type="submit" id="addBtn" class="add_Btn">Добавить</button>
+            <button type="submit" id="editBtn" class="edit_Btn hide_btn">Изменить</button>
+        </form>
+    </div>
+    <div>
+        <ul id="myUl"></ul>
+    </div>
+    <script type="text/template" id="template">
+        <li class="listTemplate" data-id="{{todo-id}}">
+            <span class="todoCheck">{{todo-title}}</span>
+            <span class="todoEdit">Edit</span>
+            <span class="todoDelete">X</span>
+        </li>
+    </script>
+</body>
+
+</html>
